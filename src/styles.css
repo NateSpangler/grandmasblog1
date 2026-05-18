@@ -5,7 +5,7 @@
   --text: #161616;
   --text-soft: #4e4a44;
   --accent-gold: #e0b84f;
-  --accent-blue: #84b6d8;
+  --accent-slate-blue: #5f7c8a;
   --accent-rust: #c96a4a;
   --border: #26231f;
   --border-soft: #928a80;
@@ -76,10 +76,11 @@ a {
   min-height: 84px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 0.9rem 0;
+  text-align: center;
 }
 
 .brand-kicker {
@@ -99,31 +100,6 @@ a {
   line-height: 1.1;
 }
 
-.nav-links {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  gap: 1.15rem;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: var(--text);
-  font-weight: 600;
-  padding: 0.38rem 0.9rem;
-  border: 1px solid rgba(22, 22, 22, 0.7);
-  border-radius: 999px;
-  background: rgba(248, 243, 234, 0.7);
-  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
-}
-
-.nav-links a:hover,
-.nav-links a:focus-visible {
-  color: var(--text);
-  background: #f0e5d2;
-  transform: translateY(-1px);
-}
 
 .hero {
   margin-bottom: 1.9rem;
@@ -190,7 +166,7 @@ a {
   width: 84px;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--accent-gold), var(--accent-blue));
+  background: linear-gradient(90deg, var(--accent-gold), var(--accent-slate-blue));
 }
 
 .eyebrow {
@@ -282,7 +258,7 @@ a {
   right: 1rem;
   top: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent-blue), transparent);
+  background: linear-gradient(90deg, transparent, var(--accent-slate-blue), transparent);
 }
 
 .quote-banner .container::after {
@@ -307,6 +283,12 @@ a {
 .about-section,
 .products-section {
   padding: 3.7rem 0 2rem;
+}
+
+.about-section {
+  background: var(--accent-slate-blue);
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
 
 .about-section h2,
@@ -335,10 +317,14 @@ a {
   color: var(--text);
 }
 
+.about-section h2 {
+  color: #f8fbff;
+}
+
 .about-copy {
   margin-top: 1rem;
-  background: var(--surface);
-  border: 1px solid rgba(22, 22, 22, 0.65);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   border-radius: var(--radius-md);
   padding: clamp(1.3rem, 2.4vw, 2rem);
   box-shadow: none;
@@ -358,6 +344,7 @@ a {
 
 .about-copy p {
   margin: 0;
+  color: #f3f7fc;
 }
 
 .about-copy p + p {
@@ -400,7 +387,7 @@ a {
   right: 0;
   top: 16px;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--accent-blue), transparent);
+  background: linear-gradient(90deg, transparent, var(--accent-slate-blue), transparent);
 }
 
 .product-card {
@@ -489,7 +476,7 @@ a {
 .product-btn:hover,
 .product-btn:focus-visible {
   transform: translateY(-2px);
-  background: var(--accent-gold);
+  background: color-mix(in srgb, var(--accent-gold) 82%, var(--accent-slate-blue) 18%);
   color: #1e1a14;
 }
 
@@ -501,14 +488,14 @@ a {
 
 .site-footer {
   margin-top: 2.5rem;
-  border-top: 1px solid rgba(22, 22, 22, 0.2);
-  background: #f1e9db;
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+  background: var(--accent-slate-blue);
   padding: 1.6rem 0 2rem;
 }
 
 .footer-wrap {
   text-align: center;
-  color: var(--text-soft);
+  color: #edf3fb;
 }
 
 .footer-wrap p {
@@ -518,7 +505,7 @@ a {
 .footer-brand {
   font-family: "Fraunces", Georgia, serif;
   font-size: 1.28rem;
-  color: var(--text);
+  color: #ffffff;
 }
 
 .reveal {
@@ -547,15 +534,6 @@ a {
 }
 
 @media (max-width: 640px) {
-  .nav-wrap {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .nav-links {
-    gap: 0.8rem;
-  }
-
   .hero {
     margin-bottom: 1rem;
   }

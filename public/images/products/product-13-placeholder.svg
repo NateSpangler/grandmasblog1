@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title>Product 13 Placeholder</title>
+  <desc>Replace this placeholder with the real product image for card 13.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaf2ff" />
+      <stop offset="100%" stop-color="#d8e7ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)" />
+  <rect x="120" y="95" width="960" height="560" rx="28" fill="#f8fbff" stroke="#b7ccee" stroke-width="5" />
+  <circle cx="255" cy="205" r="28" fill="#c0d5f4" />
+  <rect x="220" y="300" width="760" height="22" rx="11" fill="#b7ccee" />
+  <rect x="220" y="342" width="640" height="22" rx="11" fill="#c7d8f2" />
+  <rect x="220" y="384" width="700" height="22" rx="11" fill="#d4e1f5" />
+  <text x="220" y="245" fill="#2e4f7e" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700">Product 13</text>
+  <text x="220" y="468" fill="#4b6389" font-family="Inter, Arial, sans-serif" font-size="26">Replace this file with your real Amazon product image.</text>
+  <text x="220" y="506" fill="#4b6389" font-family="Inter, Arial, sans-serif" font-size="26">Keep this filename to avoid changing code.</text>
+</svg>

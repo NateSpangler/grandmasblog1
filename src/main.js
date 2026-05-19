@@ -113,15 +113,13 @@ const products = [
   },
   {
     id: 12,
-    title: "Dickies Heavyweight Neon Short Sleeve Pocket T-Shirt",
-    benefit: "Bold everyday workwear",
+    title: "Dickies Men's Big & Tall Heavyweight Crew Neck Tee",
+    benefit: "Reliable everyday workwear",
     description:
-      "A heavyweight short sleeve pocket tee built for durability, visibility, and dependable all-day wear.",
-    link: "https://www.dickies.com/en-us/products/heavyweight-neon-short-sleeve-pocket-t-shirt-dkws450nbod",
-    buttonLabel: "Shop on Dickies",
-    showCommissionNote: false,
-    image: "/images/orangeshirt.png",
-    alt: "Dickies neon short sleeve shirt product image"
+      "A 100% heavyweight cotton pocket tee with a relaxed fit, chest pocket, and long tail—available in big and tall sizes for dependable everyday and jobsite wear.",
+    link: "https://www.amazon.com/Dickies-Heavyweight-Short-Sleeve-Smoke/dp/B0821M2ZBN?crid=2SMANWYDSXHXT&dib=eyJ2IjoiMSJ9.tv6KxeblXt5NeVT6N5cn-iuu89iu1xyw9Xo6vQ90n7jApLJ5M9tyijSGnKujN9RdxZ0nLcgq7wbeZskRhTymqZYMAVzFjAyoVKz903k0Q6UqlAJpWUMRl8S4Y42bf_J8Ul3XqhwxGy8hM1cs6-CvKddUpuLL18by6UoNsggy62AgLijn1FY229DEOLEMYJe_1JijwS5QNG7wR-USrrcrDE_B3v4k1brk6R5TQtKdMuT0zCBguPTOpXmcWOukQy4Rcrlk-nwMV8S5mlhXKg9qCol6npjo_qcdDnMWzG3USTk.QL02ICkpXW9s0kK7y3gO57FFnuXYqvlULbuwel5IDjU&dib_tag=se&keywords=dickie%2Bwork%2Bt%2Bshirts%2Bfor%2Bmen%2Bshort%2Bsleeve&nsdOptOutParam=true&qid=1779144328&sprefix=Dickie%27s%2Bshort%2Bsleeve%2Bwork%2Bt%2Caps%2C377&sr=8-1&th=1&linkCode=sl2&tag=mywebsi03fc26-20&linkId=b5f32a85d56b004a85605bb9500cea0a&language=en_US&ref_=as_li_ss_tl&psc=1",
+    image: "/images/dickiesshirt.png",
+    alt: "Dickies heavyweight short sleeve shirt product image"
   },
   {
     id: 13,
